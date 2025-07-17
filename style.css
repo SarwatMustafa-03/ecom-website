@@ -1,0 +1,84 @@
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#products {
+  max-width: 600px;
+  margin: 30px auto;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+H1{
+   text-align: center; 
+    color: #333;
+    font-size: 24px
+}
+.product-header {
+    
+padding: 20px;
+margin: 30px;
+background-color: rgb(168, 199, 199);
+border:1px solid #ddd;
+border-radius: 40px;
+
+}
+ .img {
+    width: 150px;
+    height:auto;
+
+  
+
+}
+
+.product-info h3 {
+  padding: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.product-info p {
+  margin: 6px 0;
+  color: #666;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin: 2px;
+  font-size: 12px;
+  border: 1px solid #ddd;
+}
+.tag:hover{
+    background-color: rgb(180, 179, 179);
+    cursor: pointer;
+}
+
+.reviews {
+  
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.review {
+  border-bottom: 1px solid #ddd;
+  padding: 5px;
+}
+
+
+.review span {
+  font-weight: bold;
+}
+
+.footer {
+  padding: 10px;
+  font-size: 14px;
+  color: #777;
+  background-color: #fafafa;
+  border-top: 1px solid #eee;
+}
+
